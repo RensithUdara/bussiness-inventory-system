@@ -1,0 +1,61 @@
+export const SRI_LANKAN_DISTRICTS = [
+  "Ampara",
+  "Anuradhapura",
+  "Badulla",
+  "Batticaloa",
+  "Colombo",
+  "Galle",
+  "Gampaha",
+  "Hambantota",
+  "Jaffna",
+  "Kalutara",
+  "Kandy",
+  "Kegalle",
+  "Kilinochchi",
+  "Kurunegala",
+  "Mannar",
+  "Matale",
+  "Matara",
+  "Monaragala",
+  "Mullaitivu",
+  "Nuwara Eliya",
+  "Polonnaruwa",
+  "Puttalam",
+  "Ratnapura",
+  "Trincomalee",
+  "Vavuniya",
+]
+
+export const COMMON_PRODUCT_CATEGORIES = [
+  "Rice & Grains",
+  "Beverages",
+  "Cooking Oils",
+  "Spices & Condiments",
+  "Dairy Products",
+  "Snacks & Confectionery",
+  "Personal Care",
+  "Household Items",
+  "Fruits & Vegetables",
+  "Meat & Seafood",
+  "Bakery Items",
+  "Frozen Foods",
+  "Cleaning Supplies",
+  "Stationery",
+  "Electronics",
+]
+
+export const PAYMENT_TERMS = [
+  "Cash on Delivery",
+  "Net 7 Days",
+  "Net 15 Days",
+  "Net 30 Days",
+  "Net 45 Days",
+  "Net 60 Days",
+  "Advance Payment",
+  "50% Advance, 50% on Delivery",
+]
+
+export const STOCK_MOVEMENT_REASONS = {
+  "Stock In": ["Purchase Order", "Supplier Return", "Stock Adjustment", "Initial Stock", "Other"],
+  "Stock Out": ["Sale", "Customer Return", "Damage", "Theft", "Sample", "Other"],
+}

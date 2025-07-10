@@ -184,9 +184,8 @@ export default function Dashboard() {
                   >
                     <div className="flex items-center gap-3">
                       <div
-                        className={`w-8 h-8 rounded-lg flex items-center justify-center ${
-                          movement.type === "Stock In" ? "bg-green-100 text-green-600" : "bg-red-100 text-red-600"
-                        }`}
+                        className={`w-8 h-8 rounded-lg flex items-center justify-center ${movement.type === "Stock In" ? "bg-green-100 text-green-600" : "bg-red-100 text-red-600"
+                          }`}
                       >
                         {movement.type === "Stock In" ? (
                           <ArrowUpRight className="h-4 w-4" />
@@ -201,9 +200,8 @@ export default function Dashboard() {
                     </div>
                     <div className="text-right">
                       <div
-                        className={`text-sm font-bold ${
-                          movement.type === "Stock In" ? "text-green-600" : "text-red-600"
-                        }`}
+                        className={`text-sm font-bold ${movement.type === "Stock In" ? "text-green-600" : "text-red-600"
+                          }`}
                       >
                         {movement.type === "Stock In" ? "+" : "-"}
                         {Math.abs(movement.quantity)}

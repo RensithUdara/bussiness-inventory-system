@@ -13,7 +13,7 @@ import type {
   BusinessSettings,
 } from "@/types"
 
-interface InventoryState extends SystemData {}
+interface InventoryState extends SystemData { }
 
 type InventoryAction =
   | { type: "LOAD_DATA"; payload: SystemData }
